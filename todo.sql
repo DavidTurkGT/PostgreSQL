@@ -13,8 +13,8 @@ CREATE TABLE todos(
   title VARCHAR(255) NOT NULL,
   details TEXT NULL,
   priority INTEGER NOT NULL DEFAULT 1,
-  created_at DATE NOT NULL,
-  completed_at DATE NULL
+  created_at TIMESTAMP NOT NULL,
+  completed_at TIMESTAMP NULL
 );
 
 -- Write INSERT statements to insert five todos into this table, with one of them completed.
